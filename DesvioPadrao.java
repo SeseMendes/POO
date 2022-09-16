@@ -29,6 +29,7 @@ public class DesvioPadrao {
         s= (float) Math.sqrt(div);
 
         System.out.printf("S = %.2f", s);
-        
+        entrada.close();
+
     }
 }

@@ -31,6 +31,7 @@ public class DespertadorMinutos {
         fh*=60;
         sleep = fh+fm;
         System.out.println("You have " + sleep + " minutes of sleep ");
+        entrada.close();
 
     }
 }
